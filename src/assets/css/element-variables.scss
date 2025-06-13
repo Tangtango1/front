@@ -1,0 +1,17 @@
+/* 改变主题色变量 */
+:root {
+  --el-color-primary: #00c292;
+  --el-color-success: #67c23a;
+  --el-color-warning: #e6a23c;
+  --el-color-danger: #f56c6c;
+  --el-color-info: #909399;
+/* 改变 icon 字体路径变量，必需 */
+// $--font-path: '~element-plus/theme-chalk/fonts';
+// @use "element-plus/theme-chalk/src/base" as *;
+// @use "element-plus/theme-chalk/src/var" as *;
+--el-button-primary-bg-color: var(--el-color-primary);
+  --el-button-primary-border-color: var(--el-color-primary);
+}
+.custom-color {
+  color: var(--color-primary);
+}
